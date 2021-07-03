@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: triathlon92/yamdb_final
+    image: triathlon92/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/code/static/
