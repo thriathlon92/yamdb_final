@@ -4,7 +4,6 @@ from django.contrib.auth import get_user_model
 
 from .models import Category, Comment, Genre, Review, Title
 
-
 CustomUser = get_user_model()
 
 

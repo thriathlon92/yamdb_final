@@ -71,7 +71,7 @@ class ReviewViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         title = get_object_or_404(
             Title,
-            pk=self.kwargs.get('title_id',)
+            pk=self.kwargs.get('title_id', )
         )
         all_review = title.reviews.all()
         return all_review
@@ -140,11 +140,11 @@ def send_confirmation_code(request):
     token = default_token_generator.make_token(user)
     email_to = email
     message = f'confirmation_code:{token}'
-    send_mail_to_user(email_to, message,)
+    send_mail_to_user(email_to, message, )
     return Response({'email': f'{email}'})
 
 
-@api_view(['POST'],)
+@api_view(['POST'], )
 @permission_classes([AllowAny, ])
 def get_token(request):
     serializer = TokenSerializer(data=request.data)
