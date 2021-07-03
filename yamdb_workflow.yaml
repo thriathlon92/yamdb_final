@@ -25,6 +25,8 @@ jobs:
       run: |
         python -m flake8
 
+        pytest
+
         cd yamdb_final/
 
         python manage.py test
