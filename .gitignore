@@ -26,7 +26,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
+sent_emails
+sent_emails/
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
@@ -113,6 +114,7 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
+ NikitaSavvin /api_yamdb
 
 # Rope project settings
 .ropeproject
@@ -146,7 +148,5 @@ dmypy.json
 .mypy_cache
 
 # папки со статикой и медиа
-static/
-posts/static/
 media/
 
