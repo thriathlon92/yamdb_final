@@ -81,4 +81,5 @@ docker-compose up -d --build
 После чего перейдите по адресу: http://127.0.0.1/admin/;
 
 [![Django-app workflow](https://github.com/thriathlon92/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/thriathlon92/yamdb_final/actions/workflows/yamdb_workflow.yml)
+
 Проект доступен по адресу: http://178.154.200.32/admin;
