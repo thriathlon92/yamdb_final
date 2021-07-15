@@ -81,3 +81,5 @@ docker-compose up -d --build
 После чего перейдите по адресу: http://127.0.0.1/admin/;
 
 ![example workflow](https://github.com/triathlon92/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
+Проект доступен по адресу: http://178.154.200.32/admin;
